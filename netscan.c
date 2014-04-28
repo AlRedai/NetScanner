@@ -123,7 +123,6 @@ void progressbar(double pos, bar * set) {
 }
 
 void help() {
-  //printf("[*] Network Scanner v1.0 helper %s %s\n",__TIME__, __DATE__);
 	printf("  -c | --connect\tTcp protocol\n");
 	printf("  -s | --syn\t\tSyn packet scanner\n");
 	printf("  -t | --tor\t\tTor scanner default 127.0.0.1:9050\n");
