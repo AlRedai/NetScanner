@@ -69,7 +69,7 @@ typedef enum { false, true } bool;
 
 /* struct tcp syn packet */
 struct pseudohdr  {
-	in_addr_t src;
+    in_addr_t src;
     in_addr_t dst;
     char padd;
     char proto;
