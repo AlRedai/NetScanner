@@ -903,6 +903,7 @@ int main(int argc, char **argv) {
 	else
 		printf("scanned in %d.%d sec\n", seconds%60, abs(mtime-(seconds*1000)));
 	return 0;
+	
 }
 
 
